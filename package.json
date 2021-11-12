@@ -49,8 +49,20 @@
       "ecmaVersion": 2020
     },
     "rules": {
-      "indent": "off"
+      "indent": "off",
+      "no-empty-function": "off",
+     "@typescript-eslint/no-empty-function": ["warn"],
+     "singlequote" : 0,
+     "semi": 0,
+     "quotes" : 0,
+     "eol-last": 0,
+     "no-multiple-empty-lines":1,
+     "spaced-comment" :1,
+     "comma-spacing" : 1,
+     "key-spacing":1,
+     "space-before-function-paren":1
     }
+    
   },
   "browserslist": [
     "> 1%",
