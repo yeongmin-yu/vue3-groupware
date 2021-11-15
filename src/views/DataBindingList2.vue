@@ -29,7 +29,8 @@ export default {
     },
     methods: {
         async getList () {
-            this.productList = await this.$api('https://52d3c7df-eb60-4ac4-897c-54f76f1ff413.mock.pstmn.io/list', 'get')
+            this.productList = await this.$api('https://52d3c7df-eb60-4ac4-897c-54f76f1ff413.mock.pstmn.io/list', 'get').data
+            this.productList = [{ product_name: "텀블러", price: 25000, category: "노트북/태블릿", delivery_price: 5000 }]
         }
     },
     beforeCreate () {},
@@ -39,6 +40,7 @@ export default {
     },
     beforeMount () {},
     mounted () {},
+    
     beforeUpdate () {},
     updated () {},
     beforeUnmount () {},
