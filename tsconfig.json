@@ -35,7 +35,7 @@
     "src/**/*.vue",
     "tests/**/*.ts",
     "tests/**/*.tsx"
-, "src/mixins.js", "src/store/index.js", "src/router/index.js"  ],
+, "src/store/index.js", "src/router/index.js"  ],
   "exclude": [
     "node_modules"
   ]
